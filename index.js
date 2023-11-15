@@ -66,7 +66,7 @@ function generate(){
                 document.getElementById(str).innerHTML = '';
             }
         }else if(multiples < 1 || multiples > 50){
-            p.innerHTML = 'Enter range in between (1 - 50)';
+            p.innerHTML = 'multiples range in between (1 - 50)';
             head.innerHTML = '';
             for(var i = 1;i <= multiples ; i++){
                 const str = "n" + i;
